@@ -1,0 +1,337 @@
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .hamlogo{
+
+  }
+
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+
+  .handymenu {
+    display: inline;
+    overflow: hidden;
+    background-color: #00000000;
+    position: fixed;
+
+  }
+
+  .handymenu #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .handymenu a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .handymenu a.icon {
+    background: #00000000;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .handymenu a:hover {
+    background-color: #00000000;
+    color: #00000000;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #00000000;
+    color: #00000000;
+  }
+
+  div.nav{
+    display: none;
+  }
+
+  .back1 {
+  background-image: url('bilder/320bis480/Bild1.png');
+  height: -webkit-fill-available;
+  }
+
+  .back2 {
+  background-image: url('bilder/320bis480/Bild2.png');
+  height: -webkit-fill-available;
+  }
+
+  .back3 {
+  background-image: url('bilder/320bis480/Bild3.png');
+  height: -webkit-fill-available;
+  }
+
+  .back4 {
+  background-image: url('bilder/320bis480/Bild4.png');
+  height: -webkit-fill-available;
+  }
+
+  .back5 {
+  background-image: url('bilder/320bis480/Bild5.png');
+  height: -webkit-fill-available;
+  }
+
+	.alink1 { /* logoentwicklung link deko */
+				text-decoration: none;
+			}
+
+
+			.alink1:hover { /*Farbe link logoentwicklung */
+			}
+
+
+	.alink2 { /* typografie link deko */
+				text-decoration: none;
+			}
+
+			.alink2:hover{ /*Farbe link typografie */
+			}
+
+
+	.alink3 { /*  typotyp  link deko*/
+				text-decoration: none;
+			}
+
+			.alink3:hover{ /*Farbe link typotyp */
+				color: #;
+			}
+
+
+
+
+	.alink5 { /* titel standart text mit schtrift grösse */
+				text-decoration: none;
+				font-size: 10px;
+				padding-left: 0px;
+				padding-right: 4px;
+	}
+
+	span.abstand {
+				padding-right: 1px;
+				padding-left: 1px;
+	}
+	div.tpos1{
+				position: fixed;
+				left: 10%;
+				top: 50%;
+	}
+	div.tpos2{
+				position: fixed;
+				left: 26%;
+				top: 28%;
+	}
+	div.tpos3{
+				position: fixed;
+				top: 70%;
+				left: 45%;
+	}
+	div.tpos4{
+				position: fixed;
+				top: 60%;
+				left: 70%;
+	}
+	div.nav{
+        overflow: hidden;
+	}
+
+  .lbildsmall1 { /* typotyp logo */
+  	display:inline-block;
+  	height:379px;
+  	width:308px;
+  	position: fixed;
+  	top: 12%;
+  	left: 20%;
+  }
+
+  .lbildsmall4 { /* ilustration logo */
+
+  	left: -1%;
+  }
+
+	.bildholderipresum {
+
+		height: 58px;
+		width: 81px;
+		margin-top: 10px;
+
+	}
+
+  .bildtool2 {
+
+    position: fixed;
+    bottom: 45%;
+    left: 35%;
+    width: 18%;
+  }
+
+
+  span.clink1 { /* style of logoentwicklung */
+  	font-size:30px;
+  	font-style:normal;
+  	font-weight:600;
+  }
+
+  span.clink3 { /* style of typotyp */
+  	font-size:30px;
+  	font-style:normal;
+  	font-weight:600;
+  }
+
+	span.clink4 { /* style of bottext */
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 104px;
+		border-right-style: 50;
+		border-left-style: 50;
+	}
+
+  span.clink5 { /* style of botnummer */
+  	font-size: 10px;
+  	font-style: normal;
+  	font-weight: 600;
+  	position: fixed;
+  	right: 20px;
+  	bottom: 8px;
+  }
+
+
+    span.clink7 {
+    	font-size:20px;
+    	font-style:normal;
+    	font-weight:600;
+    }
+
+	span.clink13 {
+		font-size:13px;
+		font-style:normal;
+		font-weight:600;
+		position: fixed;
+		bottom: 100px;
+		left: 50px;
+		border-right-style: 50;
+		border-left-style: 50;
+
+	}
+
+  span.clink14 { /* impresum text überbild */
+		font-size:8px;
+		font-style:normal;
+		font-weight:600;
+		float: left;
+
+	}
+
+  .nohovertypografie {
+  	text-decoration: none;
+  	font-size: 13px;
+
+    padding-right: 5px;
+  }
+
+  .nohovertypotyp {
+  	text-decoration: none;
+  	font-size: 13px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverlogoentwicklung {
+  	text-decoration: none;
+  	font-size: 13px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverillustration {
+  	text-decoration: none;
+  	font-size: 13px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverimpressum {
+  	text-decoration: none;
+  	font-size: 13px;
+
+    padding-right: 5px;
+  }
+
+  .titlewhotypotyp {
+  	position: fixed;
+  	top: 1%;
+  	left: 20%;
+  }
+
+  .titlewhotypografie {
+  	position: fixed;
+  	top: 1%;
+  	left: 20%;
+  }
+
+  .titlewhologoentwicklug {
+  	position: fixed;
+  	top: 1%;
+  	left: 20%;
+  }
+
+  .titlewhoillustration {
+  	position: fixed;
+  	top: 1%;
+  	left: 20%;
+  }
+
+  .txttypografie {
+  	position: fixed;
+  	top: 52%;
+  	left: 3%;
+  }
+
+  .titlewhoimpresum {
+  	position: fixed;
+  	top: 1%;
+  	left: 20%;
+  }
+
+  .txttypotyp {
+  	position: fixed;
+  	left: 5%;
+  	top: 50%;
+  }
+
+  .txtlogoentwwicklung {
+  	position: fixed;
+  	left: 3%;
+  	top: 50%;
+  }
+
+  .txtillustration {
+  	position: fixed;
+  	left: 20%;
+  	top: 20%;
+  }
+
+  .abstand2 {
+  	padding-left: 5px;
+  	padding-bottom: 30px;
+  }
+
+  .sideimpresum{
+  	bottom: 43%;
+  }
+
+}

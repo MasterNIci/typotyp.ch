@@ -1,0 +1,176 @@
+/*
+  ##Device = Desktops / LP
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1525px) {
+
+	.back1 {
+	background-image: url('bilder/Bild1.png');
+	height: -webkit-fill-available;
+	}
+
+	.back2 {
+	background-image: url('bilder/Bild2.png');
+	height: -webkit-fill-available;
+	}
+
+	.back3 {
+	background-image: url('bilder/Bild3.png');
+	height: -webkit-fill-available;
+	}
+
+	.back4 {
+	background-image: url('bilder/Bild4.png');
+	height: -webkit-fill-available;
+	}
+
+	.back5 {
+	background-image: url('bilder/Bild5.png');
+	height: -webkit-fill-available;
+	}
+
+	.alink1 { /* logoentwicklung link deko */
+
+				text-decoration: none;
+
+			}
+
+
+			.alink1:hover { /*Farbe link logoentwicklung */
+
+			}
+
+
+
+
+	.alink3 { /*  typotyp  link deko*/
+
+				text-decoration: none;
+			}
+
+			.alink3:hover{ /*Farbe link typotyp */
+				color: #;
+			}
+
+
+	.alink5 { /* titel standart text mit schtrift grösse */
+
+				text-decoration: none;
+				font-size: 25px;
+				padding-left: 0px;
+				padding-right: 5px;
+	}
+
+	span.abstand {
+				padding-right: 10px;
+				padding-left: 10px;
+	}
+	div.tpos1{
+				position: fixed;
+				left: 10%;
+				top: 50%;
+	}
+	div.tpos2{
+				position: fixed;
+				left: 26%;
+				top: 28%;
+	}
+	div.tpos3{
+				position: fixed;
+				top: 70%;
+				left: 45%;
+	}
+	div.tpos4{
+				position: fixed;
+				top: 60%;
+				left: 70%;
+	}
+	div.nav{
+
+				font-family: "Typotyp Regular", serif;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 600;
+				position: fixed;
+				right: 0px;
+				top: 0px;
+	}
+
+	.bildholderipresum {
+
+		height: 140px;
+		width: 210px;
+		margin-top: 10px;
+
+	}
+
+	span.clink4 { /* style of bottext */
+
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 200px;
+		border-right-style: 50;
+		border-left-style: 50;
+	}
+
+
+	span.clink13 {
+
+		font-size:25px;
+		font-style:normal;
+		font-weight:600;
+		position: fixed;
+		bottom: 8px;
+		left: 50px;
+		border-right-style: 50;
+		border-left-style: 50;
+
+	}
+
+	.nohovertypografie {
+
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohovertypotyp {
+
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohoverlogoentwicklung {
+
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohoverillustration {
+
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohoverimpressum {
+
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+
+
+}

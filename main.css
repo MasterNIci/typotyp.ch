@@ -1,0 +1,760 @@
+@font-face { font-family: 'Typotyp Regular';
+						 src: url('fonts/Brass Fonts - Girando Pro Bold Italic.otf');
+						 src: url('fonts/Brass Fonts - Girando Pro Bold Italic.ttf');
+						 src: url('fonts/Brass Fonts - Girando Pro Bold.otf');
+						 src: url('fonts/Brass Fonts - Girando Pro Bold.ttf');
+						 src: url('fonts/Brass Fonts - Girando Pro Italic.otf');
+						 src: url('fonts/Brass Fonts - Girando Pro Italic.ttf');
+						 src: url('fonts/Brass Fonts - Girando Pro Regular.otf');
+						 src: url('fonts/Brass Fonts - Girando Pro Regular.ttf');
+					 }
+@font-face { font-family: 'Typotyp00';
+						 src: url('fonts/Girando00.eot');
+						 src: url('fonts/Girando00.ttf');
+						 src: url('fonts/Girando00.woff');
+						 src: url('fonts/Girando00.woff2');
+					 }
+
+@font-face { font-family: 'Typotyp10';
+						src: url('fonts/Girando10.eot');
+						src: url('fonts/Girando10.ttf');
+						src: url('fonts/Girando10.woff');
+						src: url('fonts/Girando10.woff2');
+}
+
+@font-face { font-family: 'Typotyp30';
+						src: url('fonts/Girando30.eot');
+						src: url('fonts/Girando30.ttf');
+						src: url('fonts/Girando30.woff');
+						src: url('fonts/Girando30.woff2');
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+
+h1.typotyp{
+	color: #00000000;
+	display: none;
+}
+
+h2.typotyp{
+	color: #00000000;
+	display: none;
+}
+
+h3.typotyp{
+	color: #00000000;
+	display: none;
+}
+
+a {
+	font-family:"Typotyp Regular", serif;
+}
+
+span:active {
+	color: black;
+}
+
+body {
+
+	height: auto;
+  background: url(bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+div.Einfacher-Grafikrahmen {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+div.Einfacher-Textrahmen {
+	border-style:solid;
+}
+p.Einf--Abs- {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+p.ParaOverride-1 {
+	text-align:justify;
+	text-align-last:justify;
+}
+span.clink1 { /* style of logoentwicklung */
+	color:#90d1de;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink2 { /* style of typografie */
+	color: #f39685;
+	font-family: "Typotyp Regular", serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+}
+span.clink3 { /* style of typotyp */
+	color:#ffffff;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink4 { /* style of bottext */
+	color: #b1b1b1;
+	font-family: "Typotyp Regular", serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	position: fixed;
+	bottom: 8px;
+	right: 200px;
+	border-right-style: 50;
+	border-left-style: 50;
+}
+span.clink5 { /* style of botnummer */
+	color: #b1b1b1;
+	font-family: "Typotyp Regular", serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	position: fixed;
+	right: 20px;
+	bottom: 8px;
+}
+span.clink6 { /* syle of illustration */
+	color: rgb(165, 183, 180);
+	font-family:"Typotyp Regular", serif;
+	font-size:34px;
+	font-style:normal;
+	font-weight: 600;
+}
+span.clink7 {
+	color:#b1b1b1;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink8 {
+	color:#b1b1b1;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:italic;
+	font-weight:600;
+}
+span.clink9 {
+	color:#ffffff;
+	font-family:"Typotyp Regular", serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink10 {
+	color:#ffffff;
+	font-family:"Typotyp Regular", serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink11 {
+	color:#b1b1b1;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink12 {
+	color:#8c8c8c;
+	font-family:"Typotyp Regular", serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:600;
+}
+span.clink13 {
+	color:#8c8c8c;
+	font-family:"Typotyp Regular", serif;
+	font-size:25px;
+	font-style:normal;
+	font-weight:600;
+	position: fixed;
+	bottom: 8px;
+	left: 50px;
+	border-right-style: 50;
+	border-left-style: 50;
+
+}
+span.clink14 { /* impresum text überbild */
+	color:#8c8c8c;
+	font-family:"Typotyp10", serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:600;
+	float: left;
+	margin-left: 0px;
+
+}
+
+span.clink15 {
+	font font-family:"Typotyp00";
+	font-size:20px;
+	font-weight:600;
+	color:#b1b1b1;
+}
+
+#_idContainer000, #_idContainer007, #_idContainer014, #_idContainer021, #_idContainer028, #_idContainer034 {
+	display:inline-block;
+	height:800px;
+	width:1280px;
+}
+#_idContainer003, #_idContainer011, #_idContainer016 {
+	display:inline-block;
+	height:379px;
+	width:308px;
+
+}
+#_idContainer010 {
+	display:inline-block;
+	height:189px;
+	width:495px;
+}
+#_idContainer017 {
+	display:inline-block;
+	height:398px;
+	width:78px;
+}
+#_idContainer025 {
+	display:inline-block;
+	height:304px;
+	width:308px;
+}
+#_idContainer026 {
+	display:inline-block;
+	height:190px;
+	width:117px;
+}
+#_idContainer029, #_idContainer043 {
+	display:inline-block;
+	height:282px;
+	width:308px;
+}
+#_idContainer037, #_idContainer039, #_idContainer041, #_idContainer044, #_idContainer048 {
+	display:inline-block;
+	height:102px;
+	width:155px;
+}
+img._idGenObjectAttribute-1 {
+	height: 100.00%;
+	min-width: 100%;
+	width: 100.00%;
+	opacity: 0.7;
+}
+div._idGenObjectStyleOverride-1 {
+	background-color:#000000;
+	border-width:0px;
+}
+div._idGenObjectStyleOverride-2 {
+	border-width:0px;
+}
+div._idGenObjectStyle-Disabled {
+	background-color:transparent;
+	border-width:0px;
+}
+
+
+.alink1 { /* logoentwicklung link deko */
+			color: #90d1de;
+			text-decoration: none;
+
+		}
+
+
+		.alink1:hover { /*Farbe link logoentwicklung */
+			color: #a5b7b4;
+		}
+
+
+.alink2 { /* typografie link deko */
+			color: #f39685;
+			text-decoration: none;
+		}
+
+		.alink2:hover{ /*Farbe link typografie */
+			color: #;
+		}
+
+
+.alink3 { /*  typotyp  link deko*/
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+		.alink3:hover{ /*Farbe link typotyp */
+			color: #;
+		}
+
+.alink4 { /* illustration link deko*/
+			color: rgb(165, 183, 180);
+			text-decoration: none;
+}
+
+.alink4:hover{ /*Farbe link illustration */
+	color: rgb(135, 162, 154);
+}
+
+
+.alink5 { /* titel standart text mit schtrift grösse */
+			color: #b1b1b1;
+			text-decoration: none;
+			font-size: 25px;
+			padding-right: 5px;
+			padding-left: 0px;
+}
+span.abstand {
+			padding-right: 10px;
+			padding-left: 10px;
+}
+div.tpos1{
+			position: fixed;
+			left: 10%;
+			top: 50%;
+}
+div.tpos2{
+			position: fixed;
+			left: 26%;
+			top: 28%;
+}
+div.tpos3{
+			position: fixed;
+			top: 70%;
+			left: 45%;
+}
+div.tpos4{
+			position: fixed;
+			top: 60%;
+			left: 70%;
+}
+div.nav{
+			color: #b1b1b1;
+			font-family: "Typotyp Regular", serif;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 600;
+			position: fixed;
+			right: 0px;
+			top: 0px;
+}
+
+.back1 {
+background-image: url('bilder/Bild1.png');
+height: auto;
+}
+
+.back2 {
+background-image: url('bilder/Bild2.png');
+height: auto;
+}
+
+.back3 {
+background-image: url('bilder/Bild3.png');
+height: auto;
+}
+
+.back4 {
+background-image: url('bilder/Bild4.png');
+height: auto;
+}
+
+.back5 {
+background-image: url('bilder/Bild5.png');
+height: auto;
+}
+
+.back6 {
+background-color: #000000;
+}
+
+a:hover{
+	 opacity: 0.6;
+
+}
+
+div._idGenObjectLayout-1 {
+	top: 11%;
+	right: 60%;
+	left: 41%;
+	bottom: 50%;
+	position: fixed;
+}
+
+.lbildsmall1 { /* typotyp logo */
+	display:inline-block;
+	height:379px;
+	width:308px;
+	position: fixed;
+	top: 55%;
+	left: 20%;
+}
+
+.lbildsmall2 { /* typografie logo */
+	display:inline-block;
+	height:379px;
+	width:308px;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+}
+
+.lbildsmall3 { /* logoentwicklung logo */
+	display:inline-block;
+	height:379px;
+	width:308px;
+	position: fixed;
+	top: 30%;
+	left: 20%;
+}
+
+.lbildsmall4 { /* ilustration logo */
+	display:inline-block;
+	height:379px;
+	width:308px;
+	position: fixed;
+	top: 55%;
+	left: 65%;
+}
+
+
+.lbildsmall5 { /* impresum logo */
+	display:inline-block;
+	height:379px;
+	width:308px;
+	position: fixed;
+	top: 10%;
+	left: 30%;
+}
+
+.copy {
+	font-weight: 500;
+}
+
+.abstandimpresum{
+	height: 100%;
+	width: 100%;
+}
+
+.abstand2 {
+	padding-left: 5px;
+	padding-bottom: 48px;
+}
+
+.impresumabs {
+	height: 25px;
+	width: 100%;
+	float: left;
+}
+
+.mainimpresum{
+	position: fixed;
+	bottom: 35%;
+	left: 1%;
+	height: 70px;
+	width: 100%;
+}
+
+.sideimpresum{
+	position: fixed;
+	bottom: 35%;
+	height: 70px;
+	width: 100%;
+	left: 1%;
+}
+
+.box1 {
+	margin-top: 53px;
+	width: 20%;
+	float: left;
+
+}
+
+.box2 {
+	margin-top: 53px;
+	float: left;
+ 	width: 20%;
+}
+
+.box3 {
+	margin-top: 53px;
+	float: left;
+	width: 20%;
+}
+
+.box4 {
+	margin-top: 53px;
+	float: left;
+	width: 20%;
+}
+
+.box5 {
+	margin-top: 53px;
+	float: left;
+	width: 15%
+}
+
+
+.bildtool1 {
+
+	position: fixed;
+	top: 18%;
+	left: 25%;
+}
+
+.bildtool2 {
+
+	position: fixed;
+	bottom: 10%;
+	left: 30%;
+}
+
+.bildtool3 {
+
+	position: fixed;
+	bottom: 30%;
+	left: 77%;
+}
+
+.bildwall {
+	width: 85%;
+	height: 85%;
+}
+
+.nohovertypografie {
+	color: #f39685;
+	text-decoration: none;
+	font-size: 25px;
+
+	padding-right: 5px;
+}
+
+.nohovertypotyp {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 0px;
+  padding-right: 5px;
+}
+
+.nohoverlogoentwicklung {
+	color: rgb(145, 211, 239);
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 0px;
+  padding-right: 5px;
+}
+
+.nohoverillustration {
+	color: rgb(165, 183, 180);
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 0px;
+  padding-right: 5px;
+}
+
+.nohoverimpressum {
+	color: #b1b1b1;
+	text-decoration: none;
+	font-size: 25px;
+	padding-left: 0px;
+  padding-right: 5px;
+}
+
+.titlewhotypotyp {
+	position: fixed;
+	top: 70%;
+	left: 35%;
+}
+
+.titlewhotypografie {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+}
+
+.titlewhologoentwicklug {
+	position: fixed;
+	top: 51%;
+	left: 15%;
+}
+
+.titlewhoillustration {
+	position: fixed;
+	top: 70%;
+	left: 80%;
+}
+
+.txttypografie {
+	position: fixed;
+	top: 60%;
+	left: 30%;
+}
+
+.titlewhoimpresum {
+	position: fixed;
+	bottom: 47%;
+	left: 1%;
+}
+
+.txttypotyp {
+	position: fixed;
+	left: 60%;
+	top: 40%;
+}
+
+.txtlogoentwwicklung {
+	position: fixed;
+	left: 60%;
+	top: 40%;
+}
+
+.txtillustration {
+	position: fixed;
+	left: 20%;
+	top: 20%;
+}
+
+.bildholderipresum {
+
+	height: 150px;
+	width: 200px;
+	margin-top: 10px;
+
+}
+
+.bildholderipresum:active { /* test bilder*/
+
+	}
+
+.impresumwholink {
+	position: fixed;
+	top: 30%;
+	left: 60%;
+
+}
+
+.hamlogo{
+	overflow: hidden;
+	margin-top: 12px;
+	margin-left:12px;
+}
+
+.handymenu {
+	overflow: hidden;
+	display: none;
+	font-family: "Typotyp Regular", serif;
+}
+
+.handymenu #myLinks {
+	display: none;
+}
+
+/* Style navigation menu links */
+.handymenu a {
+	display: none;
+	font-family: "Typotyp Regular", serif;
+}
+
+.handymenu a.icon {
+	display: none;
+}
+
+/* Add a grey background color on mouse-over */
+.handymenu a:hover {
+	display: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+	display: none;
+}
+
+.error{
+	color: white;
+	font-family:"Typotyp Regular", serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:600;
+	display:run-in;
+
+}
+
+.ErrorPos{
+	position: fixed;
+	top: 30%;
+	left: 200px;
+	color: grey;
+
+}
+
+.grau{
+	color: grey;
+}
+
+:-fullscreen img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  object-fit: contain;
+  background: none;
+}
+
+:-ms-fullscreen img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  object-fit: contain;
+  background: none;
+}
+
+:-moz-full-screen img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  object-fit: contain;
+  background: none;
+}
+
+:-webkit-full-screen img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  object-fit: contain;
+  background: none;
+}

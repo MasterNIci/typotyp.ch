@@ -1,0 +1,11 @@
+# robots.txt zu http://www.typotyp.ch/
+
+Sitemap: https://www.typotyp/sitemap.xml
+
+User-agent: UniversalRobot/1.0
+User-agent: mein-Robot
+Disallow: /quellen/dtd/
+
+User-agent: *
+Disallow: /fonts/
+Disallow: /bilder/

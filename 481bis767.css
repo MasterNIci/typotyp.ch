@@ -1,0 +1,313 @@
+
+
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .hamlogo{
+
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .handymenu {
+    display: inline;
+    overflow: hidden;
+    background-color: #00000000;
+    position: fixed;
+
+  }
+
+  .handymenu #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .handymenu a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .handymenu a.icon {
+    background: #00000000;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .handymenu a:hover {
+    background-color: #00000000;
+    color: #00000000;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #00000000;
+    color: #00000000;
+  }
+
+
+  .back1 {
+  background-image: url('bilder/481bis767/Bild1.png');
+  height: -webkit-fill-available;
+  }
+
+  .back2 {
+  background-image: url('bilder/481bis767/Bild2.png');
+  height: -webkit-fill-available;
+  }
+
+  .back3 {
+  background-image: url('bilder/481bis767/Bild3.png');
+  height: -webkit-fill-available;
+  }
+
+  .back4 {
+  background-image: url('bilder/481bis767/Bild4.png');
+  height: -webkit-fill-available;
+  }
+
+  .back5 {
+  background-image: url('bilder/481bis767/Bild5.png');
+  height: -webkit-fill-available;
+  }
+
+	.alink1 { /* logoentwicklung link deko */
+
+				text-decoration: none;
+
+			}
+
+
+			.alink1:hover { /*Farbe link logoentwicklung */
+
+			}
+
+
+	.alink2 { /* typografie link deko */
+
+				text-decoration: none;
+			}
+
+			.alink2:hover{ /*Farbe link typografie */
+
+			}
+
+
+	.alink3 { /*  typotyp  link deko*/
+
+				text-decoration: none;
+			}
+
+			.alink3:hover{ /*Farbe link typotyp */
+				color: #;
+			}
+
+
+
+	.alink4:hover{ /*Farbe link illustration */
+	}
+
+
+	.alink5 { /* titel standart text mit schtrift grösse */
+				text-decoration: none;
+				font-size: 25px;
+				padding-left: 0px;
+				padding-right: 5px;
+	}
+
+	span.abstand {
+				padding-right: 10px;
+				padding-left: 10px;
+	}
+	div.tpos1{
+				position: fixed;
+				left: 10%;
+				top: 50%;
+	}
+	div.tpos2{
+				position: fixed;
+				left: 26%;
+				top: 28%;
+	}
+	div.tpos3{
+				position: fixed;
+				top: 70%;
+				left: 45%;
+	}
+	div.tpos4{
+				position: fixed;
+				top: 60%;
+				left: 70%;
+	}
+	div.nav{
+      display: none;
+	}
+
+	.bildholderipresum {
+
+		height: 200px;
+		width: 300px;
+		margin-top: 10px;
+
+	}
+
+  .bildtool2 {
+
+  	position: fixed;
+  	bottom: 10%;
+  	left: 30%;
+    width: 15%;
+  }
+
+  span.clink1 { /* style of logoentwicklung */
+  	font-size:30px;
+  	font-style:normal;
+  	font-weight:600;
+  }
+
+  span.clink2 { /* style of typografie */
+  	font-size: 30px;
+  	font-style: normal;
+  	font-weight: 600;
+  }
+
+	span.clink4 { /* style of bottext */
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 200px;
+		border-right-style: 50;
+		border-left-style: 50;
+	}
+
+  span.clink7 {
+  	font-size:20px;
+  	font-style:normal;
+  	font-weight:600;
+  }
+
+
+	span.clink13 {
+		font-size:20px;
+		font-style:normal;
+		font-weight:600;
+		position: fixed;
+		bottom: 8px;
+		left: 50px;
+		border-right-style: 50;
+		border-left-style: 50;
+
+	}
+
+  span.clink14 { /* impresum text überbild */
+		font-size:20px;
+		font-style:normal;
+		font-weight:600;
+		float: left;
+
+	}
+
+  .nohovertypografie {
+  	text-decoration: none;
+  	font-size: 25px;
+
+    padding-right: 5px;
+  }
+
+  .nohovertypotyp {
+  	text-decoration: none;
+  	font-size: 25px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverlogoentwicklung {
+  	text-decoration: none;
+  	font-size: 25px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverillustration {
+  	text-decoration: none;
+  	font-size: 25px;
+
+    padding-right: 5px;
+  }
+
+  .nohoverimpressum {
+  	text-decoration: none;
+  	font-size: 25px;
+    padding-right: 5px;
+  }
+
+  .titlewhotypotyp {
+  	position: fixed;
+  	top: 1%;
+  	left: 18%;
+  }
+
+  .titlewhotypografie {
+  	position: fixed;
+  	top: 1%;
+  	left: 18%;
+  }
+
+  .titlewhologoentwicklug {
+  	position: fixed;
+  	top: 1%;
+  	left: 18%;
+  }
+
+  .titlewhoillustration {
+  	position: fixed;
+  	top: 1%;
+  	left: 18%;
+  }
+
+  .txttypografie {
+  	position: fixed;
+  	top: 53%;
+  	left: 3%;
+  }
+
+  .titlewhoimpresum {
+  	position: fixed;
+  	top: 1%;
+  	left: 18%;
+  }
+
+  .txttypotyp {
+  	position: fixed;
+  	left: 12%;
+  	top: 53%;
+  }
+
+  .txtlogoentwwicklung {
+  	position: fixed;
+  	left: 12%;
+  	top: 53%;
+  }
+
+  .txtillustration {
+  	position: fixed;
+  	left: 12%;
+  	top: 20%;
+  }
+
+}

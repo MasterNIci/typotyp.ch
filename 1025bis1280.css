@@ -1,0 +1,236 @@
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+	.back1 {
+	background-image: url('bilder/Bild1.png');
+	height: -webkit-fill-available;
+	}
+
+	.back2 {
+	background-image: url('bilder/Bild2.png');
+	height: -webkit-fill-available;
+	}
+
+	.back3 {
+	background-image: url('bilder/Bild3.png');
+	height: -webkit-fill-available;
+	}
+
+	.back4 {
+	background-image: url('bilder/Bild4.png');
+	height: -webkit-fill-available;
+	}
+
+	.back5 {
+	background-image: url('bilder/Bild5.png');
+ 	height: -webkit-fill-available;
+	}
+
+	.alink1 { /* logoentwicklung link deko */
+
+				text-decoration: none;
+
+			}
+
+
+			.alink1:hover { /*Farbe link logoentwicklung */
+
+			}
+
+
+
+
+	.alink3 { /*  typotyp  link deko*/
+
+				text-decoration: none;
+			}
+
+			.alink3:hover{ /*Farbe link typotyp */
+				color: #;
+			}
+
+
+
+
+	.alink5 { /* titel standart text mit schtrift grösse */
+
+				text-decoration: none;
+				font-size: 25px;
+				padding-left: 0px;
+				padding-right: 5px;
+	}
+
+	span.abstand {
+				padding-right: 8px;
+				padding-left: 8px;
+	}
+	div.tpos1{
+				position: fixed;
+				left: 10%;
+				top: 50%;
+	}
+	div.tpos2{
+				position: fixed;
+				left: 26%;
+				top: 28%;
+	}
+	div.tpos3{
+				position: fixed;
+				top: 70%;
+				left: 45%;
+	}
+	div.tpos4{
+				position: fixed;
+				top: 60%;
+				left: 70%;
+	}
+	div.nav{
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 600;
+				position: fixed;
+				right: 0px;
+				top: 0px;
+	}
+
+	.bildholderipresum {
+
+		height: 121px;
+		width: 194px;
+		margin-top: 10px;
+
+	}
+
+	span.clink14 { /* impresum text überbild */
+		font-size:15px;
+		font-style:normal;
+		font-weight:600;
+		float: left;
+
+	}
+
+	span.clink4 { /* style of bottext */
+		font-size: 21px;
+		font-style: normal;
+		font-weight: 600;
+		position: fixed;
+		bottom: 8px;
+		right: 200px;
+		border-right-style: 50;
+		border-left-style: 50;
+	}
+
+	span.clink5 { /* style of botnummer */
+  	font-size: 21px;
+  	font-style: normal;
+  	font-weight: 600;
+  	position: fixed;
+  	right: 20px;
+  	bottom: 8px;
+  }
+
+	span.clink13 {
+		font-size:21px;
+		font-style:normal;
+		font-weight:600;
+		position: fixed;
+		bottom: 8px;
+		left: 50px;
+		border-right-style: 50;
+		border-left-style: 50;
+
+	}
+
+	.nohovertypografie {
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohovertypotyp {
+		text-decoration: none;
+		font-size: 25px;
+		padding-right: 5px;
+	}
+
+	.nohoverlogoentwicklung {
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohoverillustration {
+		text-decoration: none;
+		font-size: 25px;
+
+		padding-right: 5px;
+	}
+
+	.nohoverimpressum {
+		text-decoration: none;
+		font-size: 25px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.titlewhotypotyp {
+		position: fixed;
+		top: 70%;
+		left: 35%;
+	}
+
+	.titlewhotypografie {
+		position: fixed;
+		top: 20%;
+		left: 20%;
+	}
+
+	.titlewhologoentwicklug {
+		position: fixed;
+		top: 51%;
+		left: 15%;
+	}
+
+	.titlewhoillustration {
+		position: fixed;
+		top: 70%;
+		left: 80%;
+	}
+
+	.txttypografie {
+		position: fixed;
+		top: 60%;
+		left: 30%;
+	}
+
+	.titlewhoimpresum {
+		position: fixed;
+		top: 51%;
+		left: 15%;
+	}
+
+	.txttypotyp {
+		position: fixed;
+		left: 60%;
+		top: 40%;
+	}
+
+	.txtlogoentwwicklung {
+		position: fixed;
+		left: 60%;
+		top: 40%;
+	}
+
+	.txtillustration {
+		position: fixed;
+		left: 20%;
+		top: 20%;
+	}
+
+}
